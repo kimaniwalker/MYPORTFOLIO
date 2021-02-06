@@ -1,6 +1,11 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import About from './components/about';
+import Contact from './components/contact';
 import Header from './components/header'
+import Portfolio from './components/portfolio';
+import Skills from './components/skills';
+import Welecome from './components/welecome';
 import "./index.css"
 
 
@@ -12,8 +17,11 @@ export default function App() {
     <Router>
       <Fragment>
         <Switch>
-          <Route exact path="/" component={Header} />
-          <Route exact path="/test" component={Header} />
+          <Route exact path="/" component={Welecome} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/skills" component={Skills} />
           <Route exact path="/test/:id" component={Header} />
           {
             isAuthenticated ?

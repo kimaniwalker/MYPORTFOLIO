@@ -1,0 +1,26 @@
+@import "./variables";
+@import "./typography";
+
+#profile {
+vertical-align: middle;
+width: 275px;
+border-radius: 50%;
+
+
+}
+
+h2{
+    font-family: 'Antic', sans-serif;
+    font-size: 5rem;
+}
+
+#introCol {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#aboutCol {
+    border-style: solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-color: skyblue;
+}
+

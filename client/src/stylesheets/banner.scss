@@ -1,0 +1,35 @@
+@import "./variables.scss";
+@import "./typography.scss";
+
+#banner {
+    height: 50vh;
+    background-image: url('../../src/images/portfolio/homeBanner.jpg') ;
+    background-size: contain;
+   
+}
+
+#bannerRow {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    
+}
+
+@media only screen and (max-width: 939px) {
+    #bannerRow {
+        padding-top: 20vh;
+    }
+}
+
+@media only screen and (max-width: 652px) {
+    #bannerRow {
+        padding-top: 15vh;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #bannerRow {
+        padding-top: 5vh;
+    }
+}
+
+
