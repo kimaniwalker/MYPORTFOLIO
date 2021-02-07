@@ -1,5 +1,6 @@
 import React from 'react'
 import profilepic from '../images/portfolio/kimani.jpeg'
+import resume from '../images/portfolio/resume.pdf'
 import '../stylesheets/about.scss'
 
 export default function About(props) {
@@ -20,9 +21,9 @@ export default function About(props) {
                             <span className="text-primary">Full Stack Developer / Graphic Designer</span>
                         </div>
                         <div className="row justify-content-center text-center py-4">
-                            <div className="col"><a><i class="bi bi-download"></i></a></div>
-                            <div className="col"><a><i class="bi bi-linkedin"></i></a></div>
-                            <div className="col"><a><i class="bi bi-github"></i></a>
+                            <div className="col"><a className="text-dark" href={resume} download="Kimani Walker Resume"><i class="bi bi-download"></i></a></div>
+                            <div className="col"><a className="text-dark" href="https://www.linkedin.com/in/kimani-walker-571078165/"><i class="bi bi-linkedin"></i></a></div>
+                            <div className="col"><a className="text-dark" href="https://github.com/kimaniwalker"><i class="bi bi-github"></i></a>
                             </div>
 
 

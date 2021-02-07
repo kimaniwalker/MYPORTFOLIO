@@ -40,22 +40,16 @@ export default function Header(props) {
             <span class="navbar-text">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                  <a class="nav-link" href="https://www.linkedin.com/in/kimani-walker-571078165/"><i class="bi bi-linkedin"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> <i class="bi bi-facebook"></i></a>
+                  <a class="nav-link" href="https://github.com/kimaniwalker"><i class="bi bi-github"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                  <a class="nav-link" href="tel:205-603-8724"><i class="bi bi-phone"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-github"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-phone"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-envelope"></i></a>
+                  <a class="nav-link" href="mailto:admin@key2design.io"><i class="bi bi-envelope"></i></a>
                 </li>
               </ul>
             </span>
