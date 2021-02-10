@@ -28,10 +28,10 @@ export default function Portfolio(props) {
                                 <div class="card-header text-center bg-dark text-light"><h5 class="card-title">KEY2DESIGN</h5></div>
                                     <img src={key2design} class="card-img-top h-100" alt="..." />
                                     
-                                    <div class="card-body py-4">
+                                    {/* <div class="card-body py-4">
                                         <h6 class="card-title">Full Stack Development</h6>
                                         <p class="card-text py-2">I developed this platform to help promote my brand KEY2DESIGN as a freelance developer. Through this site , I can track open tickets and accept payments.</p>
-                                    </div>
+                                    </div> */}
                                     <div class="card-footer text-center bg-dark">
                                         <small class="text-muted"><a href="www.key2design.io">View website</a></small>
                                     </div>
@@ -42,10 +42,10 @@ export default function Portfolio(props) {
                                 <div class="card-header text-center"><h5 class="card-title">KOUNTRY COOKIN</h5></div>
                                     <img src={koutnryCookin} class="card-img-top h-100" alt="..." />
                                     
-                                    <div class="card-body py-4">
+                                    {/* <div class="card-body py-4">
                                         <h6 class="card-title">Full Stack Development</h6>
                                         <p class="card-text py-2">Find your favorite recipes by Kountry Cookin. This site features a subscription signup in which users can signup for access to the online recipe book.</p>
-                                    </div>
+                                    </div> */}
                                     <div class="card-footer text-center">
                                         <small class="text-muted"><a href="https://still-hamlet-66612.herokuapp.com/">View website</a></small>
                                     </div>
