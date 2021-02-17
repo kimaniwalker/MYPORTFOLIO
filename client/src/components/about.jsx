@@ -34,8 +34,15 @@ export default function About(props) {
                             <h2>A Brief Introduction</h2>
                         </div>
                         <div className="row py-4">
-                            <span>Welcome, and thank you for visiting my portfolio. It means alot to me that you took the time out of your day to hear my story. Without any further adieu , I introduce me to you . I graduated from Hoover High School in 2013. After attending Troy Univesity for two years I decided to move back to Birmingham, AL.  I am a proud husband and father of 3 beautiful girls. They bring so much joy to my life and give me a purpose bigger than myself. Currrently I am working as a technical support engineer at SAP Sales Cloud and some freelance work in my community. I love sports and going out to restaraunts to try new foods. If im not spending time with the kids then most likely im locked away in my office coding the day away. </span>
-                            <span className="pt-2">I love front and back end development. I primarily code all of my apps in React & NodeJs. I work with expressJS on the backend and MySQL to hold my data. To style my components , I use bootstrap and take advantage of its great flex and grid properties. I hope that by visiting my portfolio you get the impression that I really am passionate about coding. Please leave a comment in the container below. We would love to hear from you. If you are interested in a estimate, you can also leave a comment here. I will follow up with 1-2 business days.</span>
+                            <span>Welcome, and thank you for visiting my portfolio. It means alot to me that you took the time out of your day to hear my story. I graduated from Hoover High School in 2013 and attended Troy University shortly after. I am a proud husband and father. Currrently I am working as a technical support engineer at SAP Sales Cloud and some freelance work in my community. I love sports and going out to restaraunts to try new foods. If im not spending time with the kids then most likely im locked away in my office coding the day away. </span>
+                            <span className="pt-2"> I have eight years of hands-on
+                            experience efficiently coding websites and applications using modern HTML, CSS, and
+                            JavaScript.
+                            Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion
+                            of mine.In addition to
+                            my knowledge base, I actively seek out new technologies and stay up-to-date on industry
+                            trends and advancements. This has allowed me to stay ahead of the curve and deliver
+                            exceptional work to all of my employers, including those I've worked for on a project basis.</span>
                         </div>
                         <div className="row py-4">
                             <span>Kimani Walker</span>
