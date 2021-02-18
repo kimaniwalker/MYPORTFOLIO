@@ -30,7 +30,7 @@ export default function Portfolio(props) {
 
                                     <div class="card-body py-4 text-center bg-light">
                                         <h6 class="card-title py-2">Key2design</h6>
-                                        <a href="https://www.key2design.io"><btn type="button" className="btn btn-primary btn-sm">View Website</btn></a>
+                                        <a href="https://www.key2design.io"><btn className="btn btn-primary btn-sm">View Website</btn></a>
                                     </div>
                                     {/* <div class="card-footer text-center bg-dark">
                                         <small class="text-muted"><a href="www.key2design.io">View website</a></small>
